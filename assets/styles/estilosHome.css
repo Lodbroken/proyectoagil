@@ -1,0 +1,22 @@
+.menu{
+    background-color: #312E4A;
+}
+
+.banner{
+    background-image: url("/assets/img/eldenring4.jpg");
+    width: 100%;
+    height: 1080px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.banner::after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+
+    top:0;
+    left:0;
+    background-color: black;
+    opacity: 0.3;
+}
